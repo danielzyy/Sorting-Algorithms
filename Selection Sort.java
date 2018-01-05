@@ -3,9 +3,9 @@ class Selection_Sort {
     /* Selection sort works by repeatedly finding the
      * minimum element from the unsorted subarray,
      * and putting it at the start of the subarray. Once the
-     * first minimum is found in the array and moved to the
+     * first minimum is found in the unsorted subarray and moved to the
      * beginning, it will then narrow down the boundary of the unsorted 
-     * subarray down to not include the already sorted element. */
+     * subarray to not include the already sorted element. */
 	public int[] selectionSort(int[] arr) {
 		/* this loop will act as the minimum boundary of 
          * unsorted subarray, as each time it sorts and moves
