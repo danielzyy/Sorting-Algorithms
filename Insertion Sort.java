@@ -1,5 +1,9 @@
 // @Authour: Daniel Ye @Date: January 4, 2017
 class InsertionSort {
+	/* Insertion sort works by taking a number
+	 * and inserting it in its correctly sorted
+	 * position in the array by comparing it to
+	 * previous elements. */
 	public static int [] insertionSort(int[] arr) {
 		//Loop from index 1 to the end of the array.
 		for (int i = 1;i<arr.length;i++) {
